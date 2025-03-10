@@ -1,22 +1,15 @@
-{//masala-01  forda
+//======================================masala 01 bu for=================
+{
     const array = [2, 6, 3, 7]
     const arr = []
     for (let i = 0; i < array.length; i++) {
         arr[i] = array[i] ** 2
     }
-    console.log(arr);
+    // console.log(arr);
 }
-{//masala-01 do whileda
-    const array = [2, 6, 3, 7]
-    const arr = []
-    let i = 0
-    while (i < array.length) {
-        arr[i] = array[i] ** 2
-        i++
-    }
-    console.log(arr);
-}
-{//masala-01 do whileda
+
+//=====================================masala 01 bu do while======================
+{
     const array = [2, 6, 3, 7]
     const arr = []
     let i = 0
@@ -25,88 +18,91 @@
         i++
     } while (i < array.length)
 
-    console.log(arr);
+    // console.log(arr);
 }
 
-{//masala-02 forda
+//========================================masala 02 bu for=========================
+{
     const arr = [5, -3, 4, - 6]
     const array = []
     for (i = 0; i < arr.length; i++) {
-        if (arr[i] > 0) {
-            array[i] = -arr[i];
-        } else {
-            array[i] = arr[i];
-        }
-    }
-    console.log(array);
-
-}
-{//masala-02 do while 
-    const arr = [5, -3, 4, -6]
-    const array = []
-    let i = 0
-    while (i < arr.length) {
         if (arr[i] < 0) {
             array[i] = -arr[i];
-        } else {
-            array[i] = arr[i];
-        }
-        i++
+        } 
     }
-    console.log(array);
+    // console.log(array);
 
 }
-{//masala-02 do while 
+
+//====================================masala 02 bu do while=====================
+{
     const arr = [5, -3, 4, -6]
     const array = []
     let i = 0
     do {
         if (arr[i] < 0) {
-            array[i] = -arr[i];
+            array[i] = - arr[i];
         } else {
             array[i] = arr[i];
         }
         i++
     } while (i < arr.length)
-    console.log(array);
+    // console.log(array);
 
 }
 
-{//masala-03  forda 
-    const ism = ["madina", "sevara", "gozal"]
+//======================================masala 03 bu for=========================
+{
+    const ism = ["sarvar", "murod", "salim"]
     const yangi = []
-    for (i = 0; i < ism.length; i++) {
-        yangi[i] = ism[i] + "shox"
+    for (i = 0; i <= ism.length; i++) {
+        yangi[i] = ism[i] + "xon"
     }
-    console.log(yangi);
+    // console.log(yangi);
 
 }
-{//masala-03 do while
-    const ism = ["avaz", "sherzot", "laylo"]
+//==============================masala 03 bu while===========================
+{
+    const ism = ["sarvar", "murod", "salim"]
     const yangi = []
     let i = 0
-    while (i < ism.length) {
-        yangi[i] = ism[i] + "shox"
+    while (i <= ism.length) {
+        yangi[i] = ism[i] + "xon"
         i++
     }
-    console.log(yangi);
+    // console.log(yangi);
 }
 
+//============================= =masala 03 bu while ===========================
 
-{ //masala-04 for
+{
+    const ism = ["sarvar", "murod", "salim"]
+    const yangi = []
+    let i = 0
+    do {
+        yangi[i] = ism[i] + "xon"
+        i++
+    } while (i < ism.length)
+    // console.log(yangi);
+
+}
+
+//========================================== masala 04 for ====================
+{
     const shart = [true, false, true]
     const NEWshart = []
-    for (i = 0; i < shart.length; i++) {
+    for (i = 0; i <= shart.length; i++) {
         if (shart[i]) {
             NEWshart[i] = "Ha";
         } else {
             NEWshart[i] = "Yoq";
         }
     }
-    console.log(NEWshart);
+    // console.log(NEWshart);
 
 }
-{ //masala 04 while
+//============================================masala 04 while=========================
+{ 
     const shart = [true, false, true]
     const NEWshart = []
     let i = 0;
@@ -115,41 +111,13 @@
             NEWshart[i] = "Ha";
         } else {
             NEWshart[i] = "Yoq";
-        }
-        i++
+        }i++
+        
     }
-    console.log(NEWshart);
+    // console.log(NEWshart);
 
 }
-{ //masala 04 do while 
-    const shart = [true, false, true]
-    const NEWshart = []
-    let i = 0;
-    do {
-        if (shart[i]) {
-            NEWshart[i] = "Ha";
-        } else {
-            NEWshart[i] = "Yoq";
-        }
-        i++
-    } while (i < shart.length)
-    console.log(NEWshart);
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//==========================================masala 04 do while==============================
 
 
 //sinifda bajarilganlar
